@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.2%;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  text-rendering: optimizeLegibility;
+  color: #222;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 40rem;
+}
+
+h1 {
+  margin: 2rem 0;
+}
+
+/* FORM */
+.form {
+  width: 100%;
+}
+
+label {
+  margin-right: 1rem;
+  font-weight: 600;
+}
+
+input {
+  padding: 0.5rem 0.3rem 0.5rem 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin-top: 0.6rem;
+}
+
+.bx {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.resetBtn {
+  margin-left: 1rem;
+}
+
+.result {
+  width: 100%;
+  height: auto;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+.warning {
+  display: none;
+  color: red;
+}
