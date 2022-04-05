@@ -1,6 +1,6 @@
-const form = document.querySelector(".form");
 ("use strict");
 
+const form = document.querySelector(".form");
 const submitBtn = document.querySelector(".submitBtn");
 const resetBtn = document.querySelector(".resetBtn");
 const firstName = document.getElementById("firstname");
