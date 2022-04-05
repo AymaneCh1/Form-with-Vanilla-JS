@@ -1,4 +1,6 @@
 const form = document.querySelector(".form");
+("use strict");
+
 const submitBtn = document.querySelector(".submitBtn");
 const resetBtn = document.querySelector(".resetBtn");
 const firstName = document.getElementById("firstname");
@@ -10,7 +12,6 @@ const warning = document.querySelector(".warning");
 
 submitBtn.addEventListener("click", function (e) {
   e.preventDefault();
-
   if (
     firstName.value == "" ||
     lastName.value == "" ||
